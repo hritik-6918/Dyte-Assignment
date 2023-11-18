@@ -1,0 +1,15 @@
+{
+  "access_types": {
+    "DEVELOPERS": ["level", "message"],
+    "SR_DEVELOPERS": ["level", "message", "resourceId", "timestamp", "commit"],
+    "ADMIN": [
+      "level",
+      "message",
+      "resourceId",
+      "timestamp",
+      "commit",
+      "spanId",
+      "metadata.parentResourceId"
+    ]
+  }
+}
